@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+<!--Use this format for commenting-->
+<head>
+	<!--head section for all the behind the scenes code-->
+	<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="QWCSS.css">
+<title>Host And Toast</title>
+	
+<!--We link the CDN CSS links-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="bootstrap-theme.min.css">
+<!-- My CSS -->
+<link rel="stylesheet" href="WinePageMyCSS.css">
+
+</head>
+
+
+
+<body data-spy="scroll" data-target="#my-navbar">
+<!--body section is for the meat of the page-->
+
+<!--Nav Bar-->
+<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<a href="" class="navbar-brand">Jessica's Wine Book Page</a>
+		</div><!--Nav Bar Header-->
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<a href="" class="btn btn-info navbar-btn navbar-right"> Take The Wine Quiz!</a>
+			<ul class="nav navbar-nav">
+				<li><a href="#feedback">Feedback</a>
+				<li><a href="#gallery">Gallery</a>
+				<li><a href="#features">Features</a>
+				<li><a href="#faq">FAQ</a>
+				<li><a href="#contact">Contact Us</a>
+			</ul>
+		</div>
+	</div><!--End Container-->
+</nav><!--End navbar-->
+<!--Jumbotron-->
+<div class="jumbotron">
+	<div class="container text-center" >
+		<h1>Wine Stuff</h1>
+		<p>Lorem ipsum dolor sit amet, magna percipit tacimates ne vel, quis eligendi ea quo.</p>
+		<div class="btn-group">
+			<a href="" class="btn btn-lg btn-info">Download The EBook</a>
+			<a href="" class="btn btn-lg btn-default">Take Quiz</a>
+			<a href="" class="btn btn-lg btn-info">Share With Friends</a>
+		</div>
+	</div> <!--End Container-->
+</div><!--End Jumbotron-->
+
+<div class="container">
+	<section>
+		<div class="page-header" id="feedback">
+			<h2>What Readers Are Saying About This eBook!<small>Awesome feedback</small></h2>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-xs-12">
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis lobortis dolor. Ut hendrerit dignissim tellus, eget pellentesque arcu. Quisque id velit pellentesque, ornare nisi nec, gravida risus. Fusce dictum, velit quis tempor pulvinar, quam urna tincidunt ipsum, eu tempus enim lacus et mauris. Sed eu commodo mauris. Nunc tempor turpis augue, non rhoncus orci interdum et. </p>
+					<footer>Happy Wine Drinker</footer>
+				</blockquote>
+			</div>
+			<div class="col-lg-4 col-xs-12">
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis lobortis dolor. Ut hendrerit dignissim tellus, eget pellentesque arcu. Quisque id velit pellentesque, ornare nisi nec, gravida risus.  </p>
+					<footer>Very Happy Wine Drinker</footer>
+				</blockquote>
+			</div>
+			<div class="col-lg-4 col-xs-12">
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis lobortis dolor. Ut hendrerit dignissim tellus, eget pellentesque arcu. Quisque id velit pellentesque, ornare nisi nec, gravida risus. Fusce dictum, velit quis tempor pulvinar, quam urna tincidunt ipsum, eu tempus enim lacus et mauris.  </p>
+					<footer>Hammered Wine Drinker</footer>
+				</blockquote>
+			</div>
+		</div><!--End Row-->
+	</section>
+</div><!--End Container-->
+
+<!--Call to Action -->
+<section>
+	<div class="well">
+		<div class="container text-center">
+			<h3>Subscribe for free wine stuff</h3>
+			<p>Enter your name and email</p>
+			<form action="" class="form-inline">
+				<div class="form-group">
+					<label for="subscription">Your Name</label>
+					<input type="text" class="form-control" id="subscription" placeholder="Your Name"/>
+					
+				</div>
+				<div class="form-group">
+					<label for="subscription">Email Address</label>
+					<input type="text" class="form-control" id="email" placeholder="Your Email"/>
+				</div>
+				<button type="submit" class="btn btn-default"> Subscribe</button>
+				<hr>
+			</form>
+		</div> <!--End Container-->
+	</div><!--End Well-->
+</section><!--End Call To Action-->
+
+<!--Gallery-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="gallery">
+			<h2>Gallery!<small>These pics will make hungry and drunk!</small></h2>
+			</div>
+			<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="Image0.jpg" width="1140" height"940" alt="image #1"/>
+							<div class="carousel-caption">
+									<h3>Candles and Wine</h3>
+									<p>Finest candles and worst wine</p>
+							</div>
+					</div>
+					<div class="item">
+						<img src="Image1.jpg" width="1140" height"940" alt="image #2"/>
+						<div class="carousel-caption">
+									<h3>Food and Wine</h3>
+									<p>Tasty pie and wine</p>
+							</div>
+					</div>
+					<div class="item">
+						<img src="Image2.jpg" width="1140" height"940" alt="image #3"/>
+						<div class="carousel-caption">
+									<h3>Flower and Wine</h3>
+									<p>A yellow flower and some wines</p>
+							</div>
+					</div>
+					<div class="item">
+						<img src="Image3.jpg" width="1140" height"940" alt="image #4"/>
+						<div class="carousel-caption">
+									<h3>Wine Glasses</h3>
+									<p>All lined up and fancy</p>
+							</div>
+					</div>
+				</div><!--End Inner Carousel-->
+				<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div><!--End Carousel-->
+
+		</section>
+	</div> <!--End Container-->
+
+	<!--Features -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="features">
+			<h2>The Features of The eBook<small>Feature #7 Will Shock and Amaze You!</small></h2>
+			</div> <!--end features header-->
+			<div class="row">
+				<div class="col-lg-8 col-xs-12" >
+					<h3>The Book is Awesome</h3>
+					<p> Phasellus fringilla, mi sed ullamcorper vestibulum, nisi neque dignissim leo, non tristique felis justo nec nisl. Integer pharetra molestie mauris, id congue enim tempor vitae. Nulla pellentesque metus vitae facilisis fermentum. Pellentesque at nibh eget nulla ornare cursus vitae et sem. Etiam nulla tellus, convallis at augue in, blandit dapibus nunc. Suspendisse potenti. Ut in fermentum odio, sed mollis purus. Nunc velit dolor, feugiat sit amet ullamcorper sit amet, sollicitudin ac dolor. 
+					</p>
+					<p> Donec at eros sagittis, vulputate enim rutrum, faucibus augue. Integer ornare efficitur dui finibus venenatis. Aliquam a hendrerit ex. Quisque condimentum tempus augue, eget ultrices neque ultrices vitae. Suspendisse eget gravida eros. Aenean tristique erat pulvinar sagittis maximus. Proin aliquam, diam ut convallis molestie, tellus augue imperdiet mi, in pulvinar libero nunc viverra velit. Quisque ligula nisi, placerat vitae vehicula auctor, viverra non neque. Nulla facilisi. </p>
+				</div>
+				<div class="col-lg-4 col-xs-12">
+						<img src="cover.png" id="cover" class="img-responsive" alt="book cover">
+				</div>
+			</div> <!--edn row-->
+			<div class="row">
+				<div class="col-lg-8 col-xs-12" >
+					<h3>Wine Wine and More Wine!</h3>
+					<p> Phasellus fringilla, mi sed ullamcorper vestibulum, nisi neque dignissim leo, non tristique felis justo nec nisl. Integer pharetra molestie mauris, id congue enim tempor vitae. Nulla pellentesque metus vitae facilisis fermentum. Pellentesque at nibh eget nulla ornare cursus vitae et sem. Etiam nulla tellus, convallis at augue in, blandit dapibus nunc. Suspendisse potenti. Ut in fermentum odio, sed mollis purus. Nunc velit dolor, feugiat sit amet ullamcorper sit amet, sollicitudin ac dolor. 
+					</p>
+					<p> Donec at eros sagittis, vulputate enim rutrum, faucibus augue. Integer ornare efficitur dui finibus venenatis. Aliquam a hendrerit ex. Quisque condimentum tempus augue, eget ultrices neque ultrices vitae. Suspendisse eget gravida eros. Aenean tristique erat pulvinar sagittis maximus. Proin aliquam, diam ut convallis molestie, tellus augue imperdiet mi, in pulvinar libero nunc viverra velit. Quisque ligula nisi, placerat vitae vehicula auctor, viverra non neque. Nulla facilisi. </p>
+				</div>
+				<div class="col-lg-4 col-xs-12">
+						<img src="row.jpg" id="cover" class="img-responsive" alt="row of wine">
+				</div>
+			</div> <!--edn row-->
+			<div class="row">
+				<div class="col-lg-8 col-xs-12" >
+					<h3>There's Food Too!</h3>
+					<p> Phasellus fringilla, mi sed ullamcorper vestibulum, nisi neque dignissim leo, non tristique felis justo nec nisl. Integer pharetra molestie mauris, id congue enim tempor vitae. Nulla pellentesque metus vitae facilisis fermentum. Pellentesque at nibh eget nulla ornare cursus vitae et sem. Etiam nulla tellus, convallis at augue in, blandit dapibus nunc. Suspendisse potenti. Ut in fermentum odio, sed mollis purus. Nunc velit dolor, feugiat sit amet ullamcorper sit amet, sollicitudin ac dolor. 
+					</p>
+					<p> Donec at eros sagittis, vulputate enim rutrum, faucibus augue. Integer ornare efficitur dui finibus venenatis. Aliquam a hendrerit ex. Quisque condimentum tempus augue, eget ultrices neque ultrices vitae. Suspendisse eget gravida eros. Aenean tristique erat pulvinar sagittis maximus. Proin aliquam, diam ut convallis molestie, tellus augue imperdiet mi, in pulvinar libero nunc viverra velit. Quisque ligula nisi, placerat vitae vehicula auctor, viverra non neque. Nulla facilisi. </p>
+				</div>
+				<div class="col-lg-4 col-xs-12">
+						<img src="bread.jpg" id="cover" class="img-responsive" alt="bread">
+				</div>
+			</div> <!--edn row-->
+
+			<hr>
+			<div class="row">
+				<div class="col-lg-4 col-xs-12">
+					<div class=" panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-thumbs-up"></span>
+							<h4>More Wine Shit!</h4>
+							<p> In sem elit, eleifend vitae mattis vitae, rutrum non risus. Cras est lectus, egestas nec tristique vel, pretium id velit. Donec urna tellus, aliquam sed sapien eget, posuere tempor lectus. </p>
+						</div>
+					</div>
+				</div> <!--end row-->
+				<div class="col-lg-4 col-xs-12">
+					<div class=" panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-glass"></span>
+							<h4>Even More!</h4>
+							<p> In sem elit, eleifend vitae mattis vitae, rutrum non risus. Cras est lectus, egestas nec tristique vel, pretium id velit. Donec urna tellus, aliquam sed sapien eget, posuere tempor lectus. Pellentesque euismod commodo risus, eu tincidunt nulla luctus eu. In mollis odio quis lorem venenatis, ac aliquam metus semper. Proin laoreet neque et orci sodales ornare. Vestibulum malesuada enim elementum fringilla ornare. Fusce pretium tellus non massa egestas, eget vehicula ligula hendrerit. Praesent bibendum arcu vel tristique sagittis.  </p>
+						</div>
+					</div>
+				</div> <!--end row-->
+				<div class="col-lg-4 col-xs-12">
+					<div class=" panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-heart"></span>
+							<h4>You Guessed It, More Wine!</h4>
+							<p> In sem elit, eleifend vitae mattis vitae, rutrum non risus. Cras est lectus, egestas nec tristique vel, pretium id velit. Donec urna tellus, aliquam sed sapien eget, posuere tempor lectus. . </p>
+						</div>
+					</div>
+				</div> <!--end row-->
+			</div>
+		</section>
+	</div> <!--end container -->
+
+	<!--FAQ Section-->
+	<div class="container">
+		<section>
+		<div class="page-header" id="faq">
+			<h2>F.A.Q.<small>All your questions answered!</small></h2>
+			<h4>Click on the question to find the answer...</h4>
+		</div> <!--end FAQ Headerr-->
+
+		<div class="panel=group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div class="panel title">
+						<a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+							<p id="quest"> Question #1 </p>
+						</a><!--end panel title-->
+						<div id="collapse-1" class="panel-collape collapse in">
+							<div class="panel-body">
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis lobortis dolor. Ut hendrerit dignissim tellus, eget pellentesque arcu. Quisque id velit pellentesque, ornare nisi nec, gravida risus. Fusce dictum, velit quis tempor pulvinar, quam urna tincidunt ipsum, eu tempus enim lacus et mauris. Sed eu commodo mauris. Nunc tempor turpis augue, non rhoncus orci interdum et. In hac habitasse platea dictumst. Aliquam vestibulum diam magna. </p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div class="panel title">
+						<a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+							<p id="quest"> Question #2 </p>
+						</a><!--end panel title-->
+						<div id="collapse-2" class="panel-collape collapse">
+							<div class="panel-body">
+								<p>  In sem elit, eleifend vitae mattis vitae, rutrum non risus. Cras est lectus, egestas nec tristique vel, pretium id velit. Donec urna tellus, aliquam sed sapien eget, posuere tempor lectus. Pellentesque euismod commodo risus, eu tincidunt nulla luctus eu. In mollis odio quis lorem venenatis, ac aliquam metus semper. Proin laoreet neque et orci sodales ornare. Vestibulum malesuada enim elementum fringilla ornare. Fusce pretium tellus non massa egestas, eget vehicula ligula hendrerit. Praesent bibendum arcu vel tristique sagittis. Donec et eleifend orci. Curabitur tincidunt sagittis condimentum. Ut condimentum nec dolor at accumsan. In elementum nec ipsum id vestibulum. Donec lacinia, ipsum et egestas maximus, turpis tellus dignissim libero, vitae faucibus nulla arcu quis odio. Quisque vel arcu porttitor, pharetra sapien porttitor, porta nisi.  </p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div class="panel title">
+						<a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+							<p id="quest"> Question #3 </p>
+						</a><!--end panel title-->
+						<div id="collapse-3" class="panel-collape collapse">
+							<div class="panel-body">
+								<p>  In sem elit, eleifend vitae mattis vitae, rutrum non risus. Cras est lectus, egestas nec tristique vel, pretium id velit. Donec urna tellus, aliquam sed sapien eget, posuere tempor lectus.  </p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+	</div> <!--end FAQ-->
+
+	<!--Contact-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="contact">
+			<h2>Contact Us<small>Send Us Your Questions and Comments!</small></h2>
+		</div> <!--end Contact Headerr-->
+		<div class="row">
+			<div class="col-lg-4 col-xs-12">
+				<p>Send Jessica your questions and comments</p>
+				<address>
+					<strong>Jessica Renee</strong></br>
+					111 Your Mom's Way</br>
+					Lincoln, NE 68506</br>
+					1-800-Your-Mom
+				</address>
+			</div>
+			<div class="col-lg-8 col-xs-12">
+				<form action="" class="form-horizontal">
+					<div class="form-group">
+						<label for="user-name" class="col-lg-2 control-label">Name:</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="user-name" placeholder="Enter Your Name!"> 
+						</div>
+					</div> <!--end form Group -->
+
+					<div class="form-group">
+						<label for="user-email" class="col-lg-2 control-label">Email:</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="user-email" placeholder="Enter Your Email!"> 
+						</div>
+					</div> <!--end form Group -->
+
+					<div class="form-group">
+						<label for="user-website" class="col-lg-2 control-label">Your Website:</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="user-name" placeholder="Enter Your Website"> 
+						</div>
+					</div> <!--end form Group -->
+
+					<div class="form-group">
+						<label for="user-comment" class="col-lg-2 control-label">Your Question or Comment:     </label>
+						<div class="col-lg-10">
+							<textarea name="user-comment" id="user-comment" class="form-control" cols="20" rows="10" placeholder="Enter Your Comment or Questions"></textarea>
+						</div>
+					</div> <!--end form Group -->
+					<div class="form-group">
+						<div class="col-lg-10 col-lg-offset-2">
+							<button type="submit" class="btn btn-primary">Submit Your Beef</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div><!--end of the row-->
+		</section>
+	</div>
+
+
+	<!--footer-->
+<footer>
+	<hr>
+		<div class="text-center">
+
+			
+			<ul class="list-inline">
+				<li><a href="">Twitter</a></li>
+				<li><a href="">FaceBook</a></li>
+				<li><a href="">YouTube</a></li>
+			</ul>
+
+			<p>&copy; Jessica Renne Awesomeness 2015</p>
+
+		</div> <!--End Container-->
+
+</footer>
+
+<!--JavaScriptFiles Go Here-->
+<!--jQueryFiles From Google-->
+<script src="jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="bootstrap.min.js"></script>
+<!-- My Javascript page -->
+<script src="WinePageJSJQ.js"></script>
+</body>
+</html>
