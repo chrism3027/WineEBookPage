@@ -1,8 +1,8 @@
 function CalculateTotal() {
- 
-    var answers = [Q1, Q2, Q3];
-    alert(answers[0]);
-    
+ alert('This fired');
+    var answers = [Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10];
+    var lengtharr = answers.length;
+    alert(lengtharr);
 }
 
 
@@ -18,6 +18,8 @@ var quizResults = {
     Q8: undefined,
     Q9: undefined,
     Q10: undefined
+     var answers = [Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10];
+//    for
 };
 
 /*form into variable to use later 
