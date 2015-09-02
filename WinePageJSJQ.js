@@ -1,9 +1,23 @@
-function CalculateTotal() {
- alert('This fired');
-    var answers = [Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10];
-    var lengtharr = answers.length;
-    alert(lengtharr);
-}
+function getCheckedRadio() {
+     var radioButtons = document.getElementsByName("Q1");
+    for (var x = 0; x < radioButtons.length; x ++) {
+      if (radioButtons[x].checked) {
+       alert("You checked " + radioButtons[x].id);
+       alert("Value is " + radioButtons[x].value);
+     }
+     }
+  }
+
+    //    var rates = document.getElementByName('Q9').value;
+// alert(rates);
+//    var something = [];
+//    var answers = [Q1, Q2, valueOf.Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10];
+//    var derp = something.push(answers);
+//    var lengtharr = answers.length;
+//   alert(lengtharr);
+
+
+
 
 
 /*JSon Object to store quiz results 
